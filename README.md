@@ -11,21 +11,6 @@ SQL – Data warehouse & queries
 Pandas – Data cleaning
 CSV – Raw data source
 
-📂 Project Structure
-etl-data-pipeline/
-│
-├── data/
-│   └── sales_raw.csv
-│
-├── etl.py
-├── spark_job.py
-├── sql/
-│   └── warehouse.sql
-│
-└── README.md
-
-🔄 ETL Pipeline Flow
-
 Extract
 Read raw sales data from sales_raw.csv
 
@@ -59,12 +44,5 @@ python etl.py
 Step 3 – Run Spark job
 spark-submit spark_job.py
 
-📈 Skills Demonstrated
-
-ETL pipeline development
-Big data processing using PySpark
-SQL-based data warehousing
-Data validation & transformation
-Real-world data engineering workflow
 
 
